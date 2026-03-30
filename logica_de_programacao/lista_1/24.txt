@@ -1,0 +1,5 @@
+Em "a = 7" o operador (=) trata-se de um atribuidor;
+ é aquele que irá indicar para o computador armazenar o valor 7 na variável "a".
+
+Já em "a == 7" o operador (==) trata-se de uma comparação, mais especificamente uma igualdade,
+ representando, neste caso, que "a" é igual a 7.

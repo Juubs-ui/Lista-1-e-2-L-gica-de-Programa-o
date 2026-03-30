@@ -1,0 +1,5 @@
+Matematicamente escrevemos intervalos como -5 <= x <= 5, mas em C++ isso não funciona como esperado,
+ pois o compilador interpreta primeiro -5 <= x (que vira 0 ou 1) e depois compara esse resultado com 5,
+  o que faz a expressão dar verdadeira; por isso, o jeito certo em é (-5 <= x) && (x <= 5), 
+  pois deste modo você separa as duas condições
+ e garante que o valor de x está realmente dentro do intervalo, verificando corretamente os dois lados.

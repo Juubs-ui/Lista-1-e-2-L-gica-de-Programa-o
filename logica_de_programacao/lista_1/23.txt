@@ -1,0 +1,7 @@
+A diferença é que em (idade > 0 && (sexo == 'F' || sexo == 'M')) 
+garante que a idade seja válida e que o sexo seja ‘F’ ou ‘M’, já depois em (idade > 0 && sexo == 'F' || sexo == 'M') 
+é interpretado pelo compilador como ((idade > 0 && sexo == 'F') || sexo == 'M'), porque o && é avaliado antes do ||;
+ isso faz com que qualquer pessoa com sexo ‘M’ passe na condição mesmo com idade inválida.
+
+Por exemplo, se idade = -10 e sexo = 'M' isso retorna falso na primeira expressão (o que estaria correto), mas verdadeiro na segunda, ou seja, 
+o problema é que sem os parênteses o || sexo == 'M' “fica solto” e ignora a verificação da idade nesse caso.

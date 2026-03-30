@@ -1,0 +1,5 @@
+Com a expressão original: n = z + y * x;
+
+Para alcançar o objetivo devemos acrescentar um parênteses em z+y, desta forma:
+
+n = (z+y)*x;

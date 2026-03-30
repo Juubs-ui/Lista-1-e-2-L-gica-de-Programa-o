@@ -1,0 +1,101 @@
+Respostas: 
+
+ 
+
+1. 
+
+c) && !A >= B 
+
+A alternativa c) está incorreta pois o operador “&&” precisa de dois dados para comparar, 
+
+2. 
+
+c) A = 1 e B = 1 e C = 0 
+
+Pois na expressão !(A && !B||C 
+(!B||C) = false 
+
+A= true 
+
+(A&&!B||C)= false  
+
+! Inverte= True 
+
+3. 
+
+a)1 
+
+Escrevi esse código para chegar no resultado: 
+
+#include<iostream> 
+
+using namespace std; 
+
+int main(){ 
+
+    int A=1, B=2, D=3; 
+
+    float C=0.5; 
+
+    std::cout << int(float(B)*D/C+float(A)+C)%(A+B) << std::endl; 
+
+} 
+ 
+4) 
+
+X    Y    Z |    S 
+
+1    1    1       1 
+
+0    1     1      0 
+
+0    0     1      0 
+
+0    0     0      0 
+
+1    0     0      1 
+
+0    1     0      1 
+
+1    1     0      1 
+
+1     0     1     1 
+
+ 
+
+5) 
+
+False 
+
+False 
+
+True 
+True 
+
+False 
+
+True 
+
+ 
+
+6) 
+
+True 
+
+True 
+
+True 
+
+True 
+
+True 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
